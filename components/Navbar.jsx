@@ -26,9 +26,6 @@ export const Navbar = () => {
       {
         menuItems.map(menuItem => <ActiveLink key={menuItem.text} text={menuItem.text} href={menuItem.href}/>)
       }
-      {/*<ActiveLink text="Home" href="/" />*/}
-      {/*<ActiveLink text="About" href="/about" />*/}
-      {/*<ActiveLink text="Contact" href="/contact" />*/}
     </nav>
   );
 }
