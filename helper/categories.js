@@ -1,0 +1,46 @@
+export const categories = [
+  {
+    "name": "Category 1",
+    "categories": [
+      {
+        "name": "Category 1.1",
+        "categories": []
+      },
+      {
+        "name": "Category 1.2",
+        "categories": []
+      }
+    ]
+  },
+  {
+    "name": "Category 2",
+    "categories": [
+      {
+        "name": "Category 2.1",
+        "categories": []
+      },
+      {
+        "name": "Category 2.2",
+        "categories": [
+          {
+            "name": "Category 2.2.1",
+            "categories": [
+              {
+                "name": "Category 2.2.1.1",
+                "categories": []
+              },
+              {
+                "name": "Category 2.2.1.2",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Category 3",
+    "categories": []
+  }
+]
