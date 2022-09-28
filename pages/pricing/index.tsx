@@ -18,7 +18,7 @@ export default function PrincingPage() {
   )
 }
 
-PrincingPage.getLayout = function getLayout(page) {
+PrincingPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       {page}

@@ -1,6 +1,8 @@
-import {FC} from "react";
+interface Props {
+    children: JSX.Element | JSX.Element[]
+}
 
-export const DarkLayout: FC = ({children}) => {
+export const DarkLayout = ({children}: Props) => {
   return (
     <div style={{
       backgroundColor: 'rgba(0,0,0,0.3)',
